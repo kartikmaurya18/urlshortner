@@ -24,8 +24,7 @@ public class UrlMappingController {
     private UrlMappingService urlMappingService;
     private UserService userService;
 
-    // {"originalUrl":"https://example.com"}
-//    https://abc.com/QN7XOa0a --> https://example.com
+   
 
     @PostMapping("/shorten")
     @PreAuthorize("hasRole('USER')")
